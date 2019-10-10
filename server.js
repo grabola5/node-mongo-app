@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://grabola:<mongodb6424>@cluster0-py5xw.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://grabola:mongodb6424@cluster0-py5xw.mongodb.net/test?retryWrites=true&w=majority', {
     useMongoClient: true
 });
 
